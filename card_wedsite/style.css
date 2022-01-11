@@ -1,0 +1,249 @@
+<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+   
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.header_inner{
+    height: 300px;
+}
+.logo{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family:cursive;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    border: 1px black solid;
+    background-color:dimgrey;
+    height: 60px;
+}
+.ul_item{
+    display: flex;
+    margin-left: 10px;
+    list-style-type:none;
+}
+.item{
+margin-left: 20px;  
+margin-top: 20px;
+margin-right: 20px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.link:hover{
+    color:black;
+}
+.block_center{
+    display: flex;
+}
+.block_1{
+    width: 50%;
+    height: 600px;
+    margin: 15px;
+}
+.block_2{
+    margin: 15px;
+    width: 50%;
+    height: 600px;
+    border: 3px black solid;
+    background-color: grey;
+}
+.h1_block_1{
+    font-size:17px;
+    font-family:cursive;
+}
+.p_header_block_1{
+    margin-top: 13px;
+}
+.card_block{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.card{
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    border: 3px black solid;
+}
+.card_header{
+    width: 201px;
+    height: 25px;
+    background-color:dimgrey;
+}
+.p_header_card{
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card_text{
+    padding: 5px;
+    font-size: 12px;
+}
+.text_block_2{
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+}
+@media screen and (max-width: 320px){
+.block_1{
+    margin-left: 40px;
+}
+.block_2{
+width: 350px;
+height: 50px;
+margin-left: -195px;
+margin-top: 960px;
+}
+.p_header_block_1{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.h1_block_1{
+    margin-left: 30px;
+}
+.logo{
+    margin-top: -4px;
+    }
+  }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+   
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.header_inner{
+    height: 300px;
+}
+.logo{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family:cursive;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    border: 1px black solid;
+    background-color:dimgrey;
+    height: 60px;
+}
+.ul_item{
+    display: flex;
+    margin-left: 10px;
+    list-style-type:none;
+}
+.item{
+margin-left: 20px;  
+margin-top: 20px;
+margin-right: 20px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.link:hover{
+    color:black;
+}
+.block_center{
+    display: flex;
+}
+.block_1{
+    width: 50%;
+    height: 600px;
+    margin: 15px;
+}
+.block_2{
+    margin: 15px;
+    width: 50%;
+    height: 600px;
+    border: 3px black solid;
+    background-color: grey;
+}
+.h1_block_1{
+    font-size:17px;
+    font-family:cursive;
+}
+.p_header_block_1{
+    margin-top: 13px;
+}
+.card_block{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.card{
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    border: 3px black solid;
+}
+.card_header{
+    width: 201px;
+    height: 25px;
+    background-color:dimgrey;
+}
+.p_header_card{
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card_text{
+    padding: 5px;
+    font-size: 12px;
+}
+.text_block_2{
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+}
+@media screen and (max-width: 320px){
+.block_1{
+    margin-left: 40px;
+}
+.block_2{
+width: 350px;
+height: 50px;
+margin-left: -195px;
+margin-top: 960px;
+}
+.p_header_block_1{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.h1_block_1{
+    margin-left: 30px;
+}
+.logo{
+    margin-top: -4px;
+    }
+  }
+>>>>>>> 5ed9fba54aed71f304a5724d5b4fac1cc64bc44d

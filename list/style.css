@@ -1,0 +1,15 @@
+.list_item:nth-child(2n){
+    color: darkred;
+    font-size: 20px;
+}
+.list_item:nth-child(2n+1){
+    color: blue;
+    font-size: 30px;
+}
+.list_item:nth-child(8){
+    color: yellow;
+}
+.list_item:nth-child(3n+2){
+    color: pink;
+    font-size: 50px;
+}

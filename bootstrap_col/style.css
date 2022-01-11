@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+.row{
+    height: 200px;
+}
+.col{
+    background-color: gray;
+    height: 45px;
+    border: 1px solid black;
+    color: white;
+=======
+.row{
+    height: 200px;
+}
+.col{
+    background-color: gray;
+    height: 45px;
+    border: 1px solid black;
+    color: white;
+>>>>>>> 5ed9fba54aed71f304a5724d5b4fac1cc64bc44d
+}

@@ -1,0 +1,16 @@
+.card_number{
+    margin-left: 200px;
+    margin-top: -35px;
+}
+.icon_1{
+    margin-left: 10px;
+}
+.icon_2{
+    margin-left: 100px;
+}
+.block_img{
+    display:flex;
+    width: 35px;
+    height:35px;
+    margin-left: 50px;
+}

@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+.japan{
+    position: relative;
+    width: 250px;
+    height: 150px;
+    border: 2px black solid;
+}
+.red_circle{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 40px;
+=======
+.japan{
+    position: relative;
+    width: 250px;
+    height: 150px;
+    border: 2px black solid;
+}
+.red_circle{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 40px;
+>>>>>>> 5ed9fba54aed71f304a5724d5b4fac1cc64bc44d
+}

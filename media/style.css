@@ -1,0 +1,106 @@
+<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.h1_header{ 
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+} 
+.p_header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.card_block{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    padding: 10px;
+    width: 300px;
+    height: 150px;
+    border: 1px gray solid;
+}
+.input_card{
+    width: 200px;
+    height: 20px;
+    border: 1px black solid;
+    margin-top: 10px;
+}
+.titel_card{
+    margin-top: 10px;
+}
+.p_footer_card{
+    margin-top: 10px;
+}
+@media (max-width: 1024px){
+    .card_block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+        width: 45%;
+    }
+}
+@media (max-width: 768px){
+    .card{
+        width: 100%;
+    }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.h1_header{ 
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+} 
+.p_header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.card_block{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    padding: 10px;
+    width: 300px;
+    height: 150px;
+    border: 1px gray solid;
+}
+.input_card{
+    width: 200px;
+    height: 20px;
+    border: 1px black solid;
+    margin-top: 10px;
+}
+.titel_card{
+    margin-top: 10px;
+}
+.p_footer_card{
+    margin-top: 10px;
+}
+@media (max-width: 1024px){
+    .card_block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+        width: 45%;
+    }
+}
+@media (max-width: 768px){
+    .card{
+        width: 100%;
+    }
+>>>>>>> 5ed9fba54aed71f304a5724d5b4fac1cc64bc44d
+}

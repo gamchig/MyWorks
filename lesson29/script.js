@@ -16,8 +16,14 @@
 //  let userWork = prompt('Место работы или номер школы?')
 //  console.log( 'Мне ' + userAge + ' Меня зовут '+ userName + ' Мое место занятости ' + userWork);
 
-let  firstNumber =  prompt('Введите первое число')
-let num = Number(firstNumber)
-let  secondNumber = prompt('Введите второе число')
-let secondnum = Number(secondNumber)
-console.log(num + secondnum)
+// let  firstNumber =  prompt('Введите первое число')
+// let num = Number(firstNumber)
+// let  secondNumber = prompt('Введите второе число')
+// let secondnum = Number(secondNumber)
+// console.log(num + secondnum)
+let h1 = document.querySelector('.h1')
+let changeTitle = () => {
+    h1.style.color = "red" ;
+    let fontSize = prompt('Введите размер шрифта')
+    h1.style.fontSize = fontSize + 'px'
+}

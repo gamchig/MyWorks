@@ -1,0 +1,141 @@
+<<<<<<< HEAD
+.h1_header{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+.header_p{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+.block_1{
+  width: 1500px;
+  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color:rgb(215, 226, 192) ;
+  transition: 0.5s;
+}
+.block_1:hover{
+    background-color: rgb(182, 199, 145);
+}
+.card{
+    margin: 50px;
+    width: 400px;
+    height: 200px;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.p2_card{
+  margin-left: 75px;
+  font-size:20px;
+}
+.button{
+    border: 2px skyblue solid;
+    border-radius: 5px;
+    width: 80px;
+    height: 20px;
+    padding: 10px;
+    margin-top: -45px;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+.button:hover{
+    background-color: paleturquoise;
+    border: 2px cornflowerblue solid;
+    width: 83px;
+    height: 23px;
+}
+.line{
+    margin-top: 40px;
+}
+.link{
+    margin-left: 15px;
+    color: black;
+}
+.link:active{
+    color: white;
+}
+.lesson_card{
+font-size: 20px;
+color: gray;
+margin-top: 50px;
+margin-left: 250px;
+font-family: 'Times New Roman', Times, serif;
+}
+=======
+.h1_header{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+.header_p{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+.block_1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color:rgb(215, 226, 192) ;
+  transition: 0.5s;
+}
+.block_1:hover{
+    background-color: rgb(182, 199, 145);
+}
+.card{
+    margin: 50px;
+    width: 400px;
+    height: 200px;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.p2_card{
+  margin-left: 75px;
+  font-size:20px;
+}
+.button{
+    border: 2px skyblue solid;
+    border-radius: 5px;
+    width: 80px;
+    height: 20px;
+    padding: 10px;
+    margin-top: -45px;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+.button:hover{
+    background-color: paleturquoise;
+    border: 2px cornflowerblue solid;
+    width: 83px;
+    height: 23px;
+}
+.line{
+    margin-top: 40px;
+}
+.link{
+    margin-left: 15px;
+    color: black;
+}
+.link:active{
+    color: white;
+}
+.lesson_card{
+font-size: 20px;
+color: gray;
+margin-top: 50px;
+margin-left: 250px;
+font-family: 'Times New Roman', Times, serif;
+}
+>>>>>>> 5ed9fba54aed71f304a5724d5b4fac1cc64bc44d

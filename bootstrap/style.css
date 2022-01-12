@@ -1,0 +1,79 @@
+<<<<<<< HEAD
+.container{
+    margin-top: 100px;  
+}
+.btn_btn-primary{
+text-decoration: none;
+background-color: orange;
+color: black;
+border-radius: 30px;
+padding: 10px;
+font-size: 15px;
+}
+.card-title{
+    font-size: 14px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: orange;
+    padding: 5px;
+    
+}
+.link_header_card{
+    margin-top: -38px;
+    margin-left: 220px;
+}
+.link_card{
+    color: gray;
+}
+.name_laptop{
+    position: absolute;
+    top: -15px;
+    right: 0;
+}
+.name_lt{
+    background-color: orange;
+    color: white;
+    margin-top: 15px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+=======
+.container{
+    margin-top: 100px;  
+}
+.btn_btn-primary{
+text-decoration: none;
+background-color: orange;
+color: black;
+border-radius: 30px;
+padding: 10px;
+font-size: 15px;
+}
+.card-title{
+    font-size: 14px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: orange;
+    padding: 5px;
+    
+}
+.link_header_card{
+    margin-top: -38px;
+    margin-left: 220px;
+}
+.link_card{
+    color: gray;
+}
+.name_laptop{
+    position: absolute;
+    top: -15px;
+    right: 0;
+}
+.name_lt{
+    background-color: orange;
+    color: white;
+    margin-top: 15px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+>>>>>>> 5ed9fba54aed71f304a5724d5b4fac1cc64bc44d

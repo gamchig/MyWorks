@@ -1,0 +1,11 @@
+.tanos_img{
+width: 400px;
+height: 400px;
+}
+.human{
+    width: 100px;
+    height: 100px;
+}
+.tanos_img:hover + .block_img > .human:nth-child(odd){
+     opacity: 0;
+}

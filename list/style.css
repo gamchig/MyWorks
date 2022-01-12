@@ -1,0 +1,32 @@
+.p_1::after{
+    display: inline-block;
+    content: ">";
+    
+}
+.p_1:hover::after{
+   margin-left: 10px;
+}       
+.hexagon::after{
+position: absolute;
+display: inline-block;
+content: "";
+width: 35px;
+height: 35px;
+background-size: cover ;
+background-image: url(http://www.candicendexter.com/images/hexagon.svg);
+margin-top: -8px;
+}
+.hexagon:hover::after{
+    transform: rotate(30deg);
+}
+.hexagon::before{
+position: absolute;
+display: inline-block;
+content: "";
+background-size: cover ;
+background-repeat: no-repeat;
+width: 25px;
+height: 25px;
+background: url(http://www.candicendexter.com/images/long-arrow-alt-right-solid.svg);
+margin-left: 270px;
+}

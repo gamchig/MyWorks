@@ -1,0 +1,655 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.container{
+    width: 1420px;
+    margin: 0 auto; 
+}
+.header{
+    border-bottom: 1px #D0D0D0 solid;
+}
+.header_inner{
+    height: 100px;
+    align-items:center;
+    display: flex; 
+    justify-content: space-between;
+}
+.logo1{
+height: 72px;
+left: 100px;
+padding: 11px 11px;
+}
+.ul{
+    display: flex;
+    list-style-type:none;
+
+}
+.item{
+    display: flex;
+    align-items: center;
+    border-left: 1px #E2E2E2 solid;
+    height: 40px;
+    padding: 0 25px;
+}
+.language{
+    font-size: 16px;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    
+}
+.ru{
+    border: 1px white solid;
+    padding: 1px 5px;
+}
+.ru:hover{
+    border: 1px #4AD295 solid;
+    padding: 1px 5px;
+    background-color: #4AD295;
+    border-radius: 5px;
+}
+.ua{
+    border: 1px white solid;
+    padding: 1px 5px;
+}
+.ua:hover{
+    border: 1px #4AD295 solid;
+    padding: 1px 5px;
+    background-color: #4AD295;
+    border-radius: 5px; 
+}
+.money{
+    font-size: 16px;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+.insta{
+    margin: 15px;
+}
+.main_number{
+    font-size: 16px;
+    font-style: normal;
+}
+.phone{
+    margin: 15px;
+}
+.button_text{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.button_link{
+display: flex;
+text-decoration: none;
+margin: 0 10px;
+}
+.button_text{
+    text-decoration: none;
+    color: #373737;
+    padding: 17px;
+    background-color:#EFF3F6;
+}
+.button_icon{
+    width: 55px;
+    height: 55px;
+    background-color:#DD4053;
+}
+.button_icon_img{
+    padding: 17px;
+}
+.second_button_icon{
+    width: 55px;
+    height: 55px;
+    background-color:#4AD295;
+}
+.second_item{
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    font-size: 15px;
+}
+.second_ul{
+    display: flex;
+    list-style-type:none;
+}
+.banner_img{
+    margin-top: -20px;
+    width: 100%;
+    height: 490px;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%), url(/KF/lesson23/img/photo_2021-12-17_17-53-10.jpg);
+}
+.price{
+    color: white;
+    font-size: 24px;
+    margin-left: 189px;
+    padding: 104px; 
+}
+.name{
+    width: 950px;
+    height: 102px;
+}
+.hotel_name{
+    color: white;
+    font-size: 45px;
+    margin-left: 290px;
+    margin-top: -70px;
+}
+.button_more{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 235px;
+    background: rgba(255, 255, 255, 0.25);
+    padding:22px 85px ;
+    
+}
+.more{
+   padding: 58px;
+}
+.text_block{
+    width: 504px;
+    height: 72px;
+    margin-left: 175px;
+}
+.text_second_banner{
+    font-size: 20px;
+    font-family: serif;
+ 
+}
+.block_under_banner{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.text_2{
+    color: #777777;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.button_under_banner{   
+    border: 1px gray solid;
+    text-decoration: none;
+    color: gray;
+    padding: 10px 44px; ;
+    margin-right: 20px;
+}
+.button_under_banner:active{
+    color: white;
+    background-color: gray;
+}
+.block_buttons{
+margin-top: 35px;
+}
+.circle{
+    width: 45px;
+    height: 45px;
+    border: 1.2px dashed #969696;
+    border-radius: 50%;
+}
+.block_services{
+    margin-top: -90px;
+    margin-left: 900px;
+}
+.circle{
+    margin: 10px;
+}
+.circle_img{
+    margin-left: 12px;
+    margin-top: 10px;
+}   
+.block_circle_item{
+    display: flex;
+    align-items: center;
+}
+.hotels_inner{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.hotels_h{
+    margin-top: 50px;
+    font-size: 35px;
+    margin-left: 250px;
+    font-family: serif;
+    color: #232323 ;
+}
+.header_hotels{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+.header_hotels_circle{
+    border-radius: 50%;
+    border: 1px solid #454545;
+    width: 45px;
+    height: 45px;  
+
+}
+.cr{
+    display: flex;
+    margin-top: 45px;
+    margin-left: 70px;
+
+}
+.hotel_circle_img{
+    margin-left: 10px;
+    margin-top: 17px;
+}
+.hotel_button{
+    margin-left: 100px;
+    margin-top: 50px;
+    text-decoration: none;
+    border: 1px #969696 solid;
+    height: 20px;
+    padding: 14px 32px;
+    color: #969696;
+}
+.line{
+width: 250px;
+height: 1px;
+background: #C4C4C4;
+margin-top: 65px;
+margin-left: 100px;
+display: inline-block;
+}
+.block_hotel_img{
+   display: flex;
+   justify-content: space-between;
+}
+.hotel_mask_group{
+    width: 360px;
+    height: 350px;
+    margin: 30px;
+  
+}
+.hotel_card{
+    background-image: url("img/Mask\ Group.png");
+    width: 460px;
+    height: 450px;
+ 
+}
+.hotel_img{
+    margin-top: 52px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.text_hotel_card{
+    color: #FFFFFF ;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.block_hotel_card{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hotel_card_2{
+    background-image: url("img/Mask\ Group\ \(1\).png");
+    width: 460px;
+    height: 450px;
+}
+.hotel_card_3{
+    background-image: url("img/Mask\ Group\ \(2\).png");
+    width: 460px;
+    height: 450px;
+}
+.banner_hotel_card{
+    margin-top: 23px;
+    color: #FFFFFF;
+    width: 167px;
+    height: 24px;
+    padding: 3px 15px 3px 16px;
+    background: rgba(0, 0, 0, 0.35);
+}
+.best_hotels{
+    margin-top: 100px;
+}
+.bets_hotels_heading{
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+.block_best_hotels{
+display: flex;
+align-items: center;
+margin-left: 200px;
+}
+.link_best_hotels{
+    border: 1px solid #969696;
+    text-decoration: none;
+    color: #969696;
+    font-family: 'Montserrat', sans-serif;
+    padding: 14px 35px 14px 35px;
+    margin-left: 61px;
+
+}
+.second_line{
+width: 250px;
+height: 1px;
+background: #C4C4C4;
+margin-left: 100px;
+display: inline-block;
+}
+.actual_tours_inner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card_actual_tours{
+    width: 327px;
+   margin: 30px;
+   background: #F8F8F8;
+}
+.banner_actual_tours{
+    margin-top: 15px;   
+    position: absolute;
+    width: 195px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.35);
+    color: #FFFFFF;
+    padding: 15px 3px 3px 13px;
+}
+.heading_actual_tours{
+    font-size: 20px;
+    color: #323232;
+    height: 49px;
+    
+}
+.block_headind_actual_tours{
+    padding: 15px;
+}
+.description_actual_tours{
+    margin-top: 29px;
+    height: 66px;
+    font-size: 16px;
+    color: #848484;
+    font-family: "Open Sans";
+}
+.actual_line{
+    width: 280px;
+    height: 1px;
+    background: #E8E8E8;
+    margin-top: 26px;
+}
+.price{
+    display: flex;
+}
+.actual_price{
+    font-size: 26px;
+    color: #DD4053;
+    margin-top: 23px;
+}
+.under_text_price{
+    font-size: 12px;
+    color: #C9C9C9;
+}
+.date{
+    margin-left: 222px;
+    margin-top: -32px;
+    color: #3E3E3E;
+    font-size: 12px;
+}
+.search_inner{
+    display: flex;
+}
+.main_block{
+    width: 1042px;
+    height: 140px;
+    background: #F8F8F8;
+    border-top: 6px  #969696 solid;
+    margin: 0 auto;
+    display: flex;
+    }
+    .second_main_search_block{
+        display: flex;
+    }
+    .block_button{
+        width: 133px;
+        height: 140px;
+        border: 1px black solid;
+    }
+    .text_block_button{
+        margin-left: 5px;
+    }
+    
+    .title{
+        display: flex;
+    }
+    .button_search{
+        width: 103px;
+        height: 30px;
+        margin-top: 10px;
+        border: 1px solid rgba(46, 46, 46, 0.2);
+        padding: left;
+    }
+    .block_button_2{
+        width: 213px;
+        width: 50px;
+    border: 1px black solid
+    }
+    .red_block{
+        margin-top: 100px;
+        width: 100%;
+        height: 255px;
+        background: #DD4053;
+    }   
+.top_block{ 
+    height: 127px;
+    display: flex;
+ 
+}
+.block_heading{
+margin-top: 60px;
+color: #FFFFFF;
+font-family: 'Montserrat';
+}
+.block_description{
+width: 383px;
+height: 52px;
+margin-left: 850px;
+margin-top: -40px;
+}
+.description_red_top_block{
+    color: #EFEFEF;
+    font-size: 16px;
+}
+.lower_block{
+   height: 127px;
+   width: 100%;
+}
+.button_red_block{
+    width: 410px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+::-webkit-input-placeholder{
+    color: #FFFFFF;
+}
+.checkbox_block{
+    margin-top: -40px;
+    margin-left: 550px;
+}
+    .label{
+        color: #FFFFFF;
+        margin: 10px;
+        padding-left: 20px;
+    }
+input[type="checkbox"] {
+    display: none;
+}
+.label::before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #DD4053;   
+    border: 1px solid #FFFFFF;
+    border-radius: 50%  ;
+    margin-left: -10px;
+    margin-right: 10px;
+    transition: 0.2s;
+}
+input[type="checkbox"]:checked + label::before{
+    background-color: #FFFFFF;
+    content: '✓';
+    text-align: center;
+    color:#DD4053;
+ 
+}
+.red_link_button{
+    margin-left: 1000px;
+    text-decoration: none;
+    border: 1px #FFFFFF solid;
+    background-color: #FFFFFF;
+    margin-top: -20px;
+    height: 20px;
+    padding: 14px 62px;
+    color: #DD4053;
+}
+.block_red_link{
+margin-top: -30px;
+}
+.travle_img{
+    background: url(/KF/lesson23/img/GettyImages-685890576-2200x880\ 1.png) ;
+    width: 100hv;
+    height: 509px;
+    background-repeat: no-repeat;
+}
+.block_travle_title{
+    width: 612px;
+    height: 110px;
+    margin-left: 325px;
+    padding: 70px;
+}
+.title_travle{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.second_travel_block{
+    width: 1180px;
+    height: 525px;
+    position: absolute;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.07);
+    margin-top: -300px;
+    margin-left: 130px;
+}
+.second_travel_block{
+    display: flex;
+}
+.second_tracle_block_1{
+    width: 50%;
+    height: 525px;
+}
+.second_tracle_block_2{
+    width: 50%;
+    height: 525px;
+}
+.main_card_block{
+    display: block;
+    margin-top: 70px;
+}
+.travle_card{
+    width: 100%;
+    height: 129px;
+    margin-top: 40px;
+    display: flex;
+}
+.circle_travle_img{
+width: 60px;
+height: 58px;
+margin-left: 30px;
+border-radius: 50%;
+border: 1.2px dashed #969696;
+box-sizing: border-box;
+display: flex;
+align-items: center;
+}
+.img_in_circle{
+    margin-left: 15px;
+}
+.block_discription{
+    width: 412px;
+    height: 103px;
+    margin-left: 30px;
+}
+.footer_banner{
+    width: 1440px;
+    height: 370px;
+    background: url(//KF/lesson23/img/);
+    border: 1px rgb(255, 255, 255) solid;
+    margin-top: 230px;
+
+}
+.block_footer{
+    display: flex;
+   justify-content: space-around;
+   margin-top: 198px;
+}
+.list{
+   list-style-type:none;
+   color:#3E3E3E;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+}
+.work_schedule_p{
+    color: 
+    #3E3E3E;
+    font-size: 12px;
+}
+.time{
+    margin-top: 8px;
+    font-size: 15px;
+}
+.numbers{
+    font-size: 15px;
+    color:#3E3E3E ;
+}
+.discription_numbers{
+    font-size: 12px;
+    color: #3E3E3E;
+    margin-top: 25px;
+}
+.footer_line{
+    width: 1036px;
+    height: 1px;
+    background: rgba(29, 29, 29, 0.2);
+    border-radius: 2px; 
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.date{
+    color: #3E3E3E;
+    margin-right: 200px;
+}
+.block_date{
+   margin-top: 70px;
+
+}
+.footer_img{
+    margin: 15px;
+}
+.block_footer_icon{
+    margin-left: 1200px;
+    margin-top: -43px;
+}
+.footer_banner{
+width: 1042px;
+height: 140px;
+background: #F8F8F8;
+border-top: 6px  #969696 solid;
+margin: 0 auto;
+display: flex;
+}
+

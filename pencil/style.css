@@ -1,0 +1,50 @@
+.head_pencil{
+    width: 150px;
+    height: 225px;
+    clip-path: polygon(50% 0%, 0 100%, 100% 100%);
+   
+}
+.top_pencil{
+    width: 150px;
+    height: 75px;
+    
+    background-color:black;
+}
+
+  .top_pencil_2{
+    width: 150px;
+    height: 150px;
+   background-color:burlywood;
+
+  
+}
+.end_pencil{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+}
+.block1{
+    width: 50px;
+    height: 500px;
+    background-color:cyan;
+    border: 1px black solid;
+    
+
+}
+.block2{
+    width: 50px;
+    height: 500px;
+    background-color:cyan;
+    border: 1px black solid;
+
+}
+.block3{
+    width: 50px;
+    height: 500px;
+    background-color:cyan;
+    border: 1px black solid;
+    -webkit-box-shadow: 29px 15px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 29px 15px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 29px 15px 8px 0px rgba(34, 60, 80, 0.2);
+}
+

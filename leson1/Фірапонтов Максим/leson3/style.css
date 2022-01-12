@@ -1,0 +1,40 @@
+.p1{
+  background: rgb(177, 93, 93);
+} 
+.p2{
+    background: rgb(177, 93, 93);
+  } 
+  .p3{
+    background: rgb(177, 93, 93);
+  } 
+  .h4{
+
+      font-size: 25px;
+      color: gray;
+  }
+.text1{
+    width:  30%;
+    display: inline-block;
+}
+.text2{
+position: relative;
+top: 0;
+  display: inline-block;
+  width:  30%;
+    
+}               
+.h5{
+    font-size: 25px;    
+}
+.h6{
+    font-size: 25px;
+}
+.pp{
+  font-size: 25px;
+}
+.link{
+color: rgb(1, 126, 22);
+background: yellowgreen;
+padding: 15px;
+}
+

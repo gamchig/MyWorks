@@ -20,24 +20,23 @@
 //     console.log(6 - x)
 
 
-// let x = prompt("Введите число");
-// if ( x < -2 || x > 2){
-//     console.log(2 * x)
-// } 
-// else{
-//     console.log(-3*x)
-// }
-// let x = prompt("Введите число");
-// if (x <= 0){
-//     console.log(-x)
-// }
+ let x = prompt("Введите число");
+ if ( x < -2 || x > 2){
+    console.log(2 * x)
+ } 
+ else{
+     console.log(-3*x)
+ }
+ let x = prompt("Введите число");
+ if (x <= 0){
+     console.log(-x)
+ }
 
-// let x = prompt("Введите число");
-// if (0 < x < 2){
-//     console.log(x**2)
-// }
+ let x = prompt("Введите число");
+ if (0 < x < 2){
+     console.log(x**2)
+ }
 
-// let x = prompt("Введите число");
-//  if ( x => 2){
-//     console.log(4)
-//  }
+ let x = prompt("Введите число");
+  if ( x => 2){     console.log(4)
+ }

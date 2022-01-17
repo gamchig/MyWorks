@@ -651,4 +651,33 @@ background: #F8F8F8;
 border-top: 6px  #969696 solid;
 margin: 0 auto;
 display: flex;
+{
 }
+.second_main_search_block{
+    display: flex;
+}
+.block_button{
+    width: 133px;
+    height: 140px;
+    border: 1px black solid;
+}
+.text_block_button{
+    margin-left: 5px;
+}
+
+.title{
+    display: flex;
+}
+.button_search{
+    width: 103px;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid rgba(46, 46, 46, 0.2);
+    padding: left;
+}
+.block_button_2{
+    width: 213px;
+    width: 50px;
+border: 1px black solid
+}
+
